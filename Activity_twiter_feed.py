@@ -63,7 +63,6 @@ feed = TwitterFeed()
 feed.add_tweet("Hello, world!")
 feed.add_tweet("Learning Linked Lists!")
 feed.add_tweet("This is my third tweet.")
-feed.add_tweet("Python is amazing!")
 
 # Displaying the feed
 feed.display_feed()
@@ -73,6 +72,3 @@ feed.delete_tweet("Learning Linked Lists!")
 
 # Displaying the feed again after deletion
 feed.display_feed()
-
-# Attempt to delete a non-existent tweet
-feed.delete_tweet("Non-existent tweet")
